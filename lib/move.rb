@@ -9,10 +9,10 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-  return user_input.to_i - 1
+  puts user_input.to_i - 1
 end
 
-def move(board, index, var = "X")
-  board[index] = var
+def move(board, index, player = "X")
+  board[index] = player
   puts board
 end
